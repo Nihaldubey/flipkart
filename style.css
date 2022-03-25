@@ -12,6 +12,9 @@ header{
     background: var(--main-bg-color); 
     font-family: 'Lato', sans-serif;
 }
+.card-item img {
+    cursor: pointer;
+}
 
 nav{
     display: flex;
@@ -64,13 +67,20 @@ nav ul li a:hover{
 .search button{
     font-family: 'Lato', sans-serif;
     font-weight: 900;
+   
+}
+button:hover{
+    color:black;
 }
 
 .slider{ 
     width: 80vw;
-    margin: 12px auto;
+    margin: 15px auto;
     overflow: hidden;
 
+}
+.slider img {
+    cursor: pointer;
 }
 
 
@@ -126,7 +136,7 @@ footer{
 }
 
 .my-2{
-    margin: 26px 500px;
+    margin: 26px 50px;
     
 }
 
@@ -141,7 +151,12 @@ footer{
     }
 
     .slider{
-        height: 23vh;
+        width: 500px;
+        
+        
+    }
+    .slider img {
+        width: 500px;
     }
 
     .logo{
@@ -165,6 +180,8 @@ footer{
         height: 34px;
     }
     .card-item img{ 
-        width: 140px;
+        width: 100%;
+        
     }
+    
 }
