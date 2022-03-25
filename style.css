@@ -91,7 +91,7 @@ button:hover{
 }
 
 .cards{
-    display: flex; 
+    display: flex;
     overflow: hidden;
 }
 
@@ -146,7 +146,6 @@ footer{
 
 @media screen and (max-width:768px){
 
-
     nav{
         flex-direction: column;
     }
@@ -180,9 +179,13 @@ footer{
     nav ul {
         height: 34px;
     }
-    .card-item img{ 
-        width: 100%;
+    .cards {
+        display: inline-block; 
         
+    }
+    .card-item img{ 
+        width: 140px;
+
     }
     
 }
