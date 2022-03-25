@@ -144,7 +144,8 @@ footer{
     text-align: center;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:768px){
+
 
     nav{
         flex-direction: column;
